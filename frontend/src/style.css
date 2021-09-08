@@ -1,0 +1,251 @@
+:root {
+	--redux-color: #764abc;
+}
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	display: flex;
+	height: 8vh;
+	padding: 0;
+	overflow: hidden;
+	box-shadow: 0 1px 0 rgba(12,13,14,0.15);
+	position: relative;
+	flex-direction: row;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+section {
+	max-width: 800px;
+	margin: auto;
+}
+
+nav section {
+	width: 100%;
+	height: 100%;
+}
+
+section h2 {
+	color: rgba(0, 0, 0, 0.8);
+	font-weight: 600;
+	font-size: 2rem;
+	margin: 1rem 0;
+}
+
+.navContent {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.navLinks {
+	display: flex;
+}
+
+nav a {
+	color: #535a60;
+	padding: 0.5rem 3rem;
+	font-weight: 700;
+	font-size: 1rem;
+}
+
+.navLinks a  {
+	margin-left: 0.3rem;
+	padding: 1.2rem 1.7rem;
+}
+
+nav .button {
+	margin-right: 1rem;
+	padding: 0.75rem 1.5rem;
+}
+
+.button {
+	color: #535a60;;
+	font-weight: 700;
+	font-size: 1rem;
+	text-align: center;
+	border: none;
+	background: none;
+}
+
+.addForm {
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+.addForm label {
+	display: block;
+	margin-top: 0.3rem;
+	margin-bottom: 0.7rem;
+	color: rgba(0, 0, 0, 0.8);
+	font-weight: 600;
+}
+
+.addForm input, select, textarea {
+	width: 100%;
+	max-width: 100%;
+	padding: 0.8rem;
+	margin-bottom: 1rem;
+	background-color: transparent;
+	line-height: 1;
+	font-size: 1rem;
+	font-weight: 500;
+	border-width: 1px;
+	border-radius: 4px;
+	border-color: rgba(133,133,133);
+}
+
+.addForm button {
+	display: inline-block;
+	background: #0366ee;
+	border-radius: 4px;
+	border: 1px solid #0366ee;
+	color: white;
+	font-size: 1rem;
+	font-weight: 600;
+	text-align: center;
+	cursor: pointer;
+	width: 17%;
+	padding: 0.75rem;
+	opacity: 0.5;
+}
+
+
+
+.post-excerpt {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1rem;
+	padding: 0.25rem;
+	border: 1px solid rgb(177, 174, 174);
+	border-radius: 4px;
+}
+
+.post-excerpt h3 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+	color: rgba(0, 0, 0, 0.8)
+}
+
+.post-excerpt .details {
+	color: #404040;
+	margin-bottom: 0.5rem;
+}
+
+.post-excerpt p {
+	font-size: 1.1rem;
+	margin-bottom: 1.5rem;
+	margin-top: 0.7rem;
+}
+
+.muted-button {
+	width: 15%;
+	border: solid 1px #cdcdcd;
+	color: #4e4e4e;
+	font-size: 1.1rem;
+	font-weight: 600;
+	cursor: pointer;
+	padding: 0.5rem 0.3rem;
+	background: transparent;
+	margin-bottom: 0.5rem;
+}
+
+.reactions {
+	margin-bottom: 0.7rem;
+}
+
+.reaction-button {
+	background: transparent;
+	color: #4e4e4e;
+	border: solid 1px #cdcdcd;
+	border-radius: 2px;
+	margin: 0.3rem;
+}
+
+.singlePostSection {
+	margin-top: 1rem;
+}
+.singlePostSection .post-excerpt {
+	border: none;
+}
+
+/*-------------------Auth------------------------*/
+.login-form {
+	max-width: 340px;
+	margin: auto;
+	
+}
+
+.login-form h2 {
+	margin-top: 3rem;
+	font-weight: 500;
+	color: #959da5;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.login-form form {
+	background: #f6f8fa;
+	border: 1px solid #e1e4e8;
+	border-radius: 5px;
+	padding: 1.3rem;
+}
+
+.login-form input {
+	border: 1px solid #d1d5da;
+	border-radius: 4px;
+	display:block;
+	width: 100%;
+	padding: 0.5rem 0.3rem;
+	color: black;
+	margin-bottom: 1rem;
+}
+
+.login-form label {
+	display: block;
+	margin-bottom: 0.5rem;
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+.login-form button {
+	display: block;
+	border-radius: 4px;
+	width: 100%;
+	text-align: center;
+	font-size: 0.9rem;
+	font-weight: 500;
+	background: #79b8ff;;
+	border: 1px solid;
+	padding: 0.5rem 0.3rem;
+	margin: 1rem 0;
+	color: #fff;
+}
+
+.login-callout {
+	border: 1px solid #d8dee2;
+	text-align: center;
+	font-weight: 500;
+	margin-top: 1rem;
+}
+
+.blue {
+	color:#0366d6;
+}
+
+
+/*-------------------Auth------------------------*/
